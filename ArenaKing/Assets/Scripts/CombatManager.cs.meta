@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: e1ee71110d955ba46b7fddce8f9dad0d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - player1Animator: {instanceID: 0}
+  - player2Animator: {instanceID: 0}
+  - player1: {instanceID: 0}
+  - player2: {instanceID: 0}
+  - mainCamera: {instanceID: 0}
+  - bootsPrefab: {fileID: 919132149155446097, guid: 789a8d9d4dc7a284fb6ab9a145f6da2e,
+      type: 3}
+  - bootsSquire: {fileID: 1337395434598498, guid: 922bf38b37df6ed46b99dd2720a8b365,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "324580807423",
+    "project_id": "arenaking-3ec58",
+    "storage_bucket": "arenaking-3ec58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324580807423:android:2897c10cac7f0aed4fb2ca",
+        "android_client_info": {
+          "package_name": "com.catisfaction.arenaking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkUfjCUSBINuwx81mrBAPjGPUh6D_rvhg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
