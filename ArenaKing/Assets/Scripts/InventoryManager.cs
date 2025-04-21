@@ -92,12 +92,60 @@ public class InventoryManager : MonoBehaviour
 
     void Start()
     {
+        inventoryPanel = GameObject.Find("InventoryPanel");
+        shieldVisual = GameObject.Find("ShieldVisual");
+        pauldronsVisual = GameObject.Find("PauldronsVisual");
+        chestVisual = GameObject.Find("ChestVisual");
+        bootsVisual = GameObject.Find("BootsVisual");
+        weaponVisual = GameObject.Find("WeaponVisual");
+        helmetVisual = GameObject.Find("HelmetVisual");
+        glovesVisual = GameObject.Find("GlovesVisual");
+        greavesVisual = GameObject.Find("GreavesVisual");
+        shieldSlot = GameObject.Find("ShieldSlot");
+        pauldronsSlot = GameObject.Find("PauldronsSlot");
+        chestSlot = GameObject.Find("ChestSlot");
+        bootsSlot = GameObject.Find("BootsSlot");
+        weaponSlot = GameObject.Find("WeaponSlot");
+        helmetSlot = GameObject.Find("HelmetSlot");
+        glovesSlot = GameObject.Find("GlovesSlot");
+        greavesSlot = GameObject.Find("GreavesSlot");
+        health = GameObject.Find("Health");
+        attack = GameObject.Find("Attack");
+        //healthIcon = GameObject.Find("ShieldVisual");
+        //attackIcon = GameObject.Find("ShieldVisual");
+        //shieldIcon = GameObject.Find("ShieldVisual");
+        //pauldronsIcon = GameObject.Find("ShieldVisual");
+        //chestIcon = GameObject.Find("ShieldVisual");
+        //bootsIcon = GameObject.Find("ShieldVisual");
+        //weaponIcon = GameObject.Find("ShieldVisual");
+        //helmetIcon = GameObject.Find("ShieldVisual");
+        //glovesIcon = GameObject.Find("ShieldVisual");
+        //greavesIcon = GameObject.Find("ShieldVisual");
         StartCoroutine(LoadInventory());
         StartCoroutine(LoadEquipments());
     }
 
     public void RefreshInventory()
     {
+        inventoryPanel = GameObject.Find("InventoryPanel");
+        shieldVisual = GameObject.Find("ShieldVisual");
+        pauldronsVisual = GameObject.Find("PauldronsVisual");
+        chestVisual = GameObject.Find("ChestVisual");
+        bootsVisual = GameObject.Find("BootsVisual");
+        weaponVisual = GameObject.Find("WeaponVisual");
+        helmetVisual = GameObject.Find("HelmetVisual");
+        glovesVisual = GameObject.Find("GlovesVisual");
+        greavesVisual = GameObject.Find("GreavesVisual");
+        shieldSlot = GameObject.Find("ShieldSlot");
+        pauldronsSlot = GameObject.Find("PauldronsSlot");
+        chestSlot = GameObject.Find("ChestSlot");
+        bootsSlot = GameObject.Find("BootsSlot");
+        weaponSlot = GameObject.Find("WeaponSlot");
+        helmetSlot = GameObject.Find("HelmetSlot");
+        glovesSlot = GameObject.Find("GlovesSlot");
+        greavesSlot = GameObject.Find("GreavesSlot");
+        health = GameObject.Find("Health");
+        attack = GameObject.Find("Attack");
         StartCoroutine(LoadInventory());
         StartCoroutine(LoadEquipments());
     }
