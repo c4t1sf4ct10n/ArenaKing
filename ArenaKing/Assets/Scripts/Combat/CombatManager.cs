@@ -44,9 +44,6 @@ public class CombatManager : MonoBehaviour
 
     void Start()
     {
-        player1 = GameObject.Find("Player1");
-        player2 = GameObject.Find("Player2");
-        //player3 = GameObject.Find("DefaultCharacter@PartRenderer");
         player1Id = "4E2F8C60-A059-43C6-81EA-CAB334FC8B86";
         player2Id = "AA039A16-4F60-4D68-87F9-96570045DDBC";
 
@@ -127,8 +124,7 @@ public class CombatManager : MonoBehaviour
             if (round.result == "Death" && round.attacker == player1Id) isVictory = true;
         }
         if (isVictory) Debug.Log("Victoire");
-        MainMenuManager.instance.LoadPlayer();
-        MainMenuManager.instance.RefreshInventory();
+        GameManager.instance.LoadPlayer();
         SceneManager.LoadScene("MainMenu");
     }
 

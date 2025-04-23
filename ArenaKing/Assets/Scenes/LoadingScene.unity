@@ -172,73 +172,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 427728877}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1da0b32e788a0824fb82fbe04d3f06e2, type: 3}
+  m_Script: {fileID: 11500000, guid: 7a1732cc50f83984eaaa74e6bf301074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrencyFreemiumButton: {fileID: 0}
-  CurrencyPremiumButton: {fileID: 0}
-  CurrencyFreemiumText: {fileID: 0}
-  CurrencyPremiumText: {fileID: 0}
-  inventoryPanel: {fileID: 0}
-  shieldVisual: {fileID: 0}
-  pauldronsVisual: {fileID: 0}
-  chestVisual: {fileID: 0}
-  bootsVisual: {fileID: 0}
-  weaponVisual: {fileID: 0}
-  helmetVisual: {fileID: 0}
-  glovesVisual: {fileID: 0}
-  greavesVisual: {fileID: 0}
-  shieldSlot: {fileID: 0}
-  pauldronsSlot: {fileID: 0}
-  chestSlot: {fileID: 0}
-  bootsSlot: {fileID: 0}
-  weaponSlot: {fileID: 0}
-  helmetSlot: {fileID: 0}
-  glovesSlot: {fileID: 0}
-  greavesSlot: {fileID: 0}
-  health: {fileID: 0}
-  attack: {fileID: 0}
-  healthIcon: {fileID: 0}
-  attackIcon: {fileID: 0}
-  shieldIcon: {fileID: 0}
-  pauldronsIcon: {fileID: 0}
-  chestIcon: {fileID: 0}
-  bootsIcon: {fileID: 0}
-  weaponIcon: {fileID: 0}
-  helmetIcon: {fileID: 0}
-  glovesIcon: {fileID: 0}
-  greavesIcon: {fileID: 0}
-  slot1: {fileID: 0}
-  slot2: {fileID: 0}
-  slot3: {fileID: 0}
-  slot4: {fileID: 0}
-  slot5: {fileID: 0}
-  slot6: {fileID: 0}
-  slot7: {fileID: 0}
-  slot8: {fileID: 0}
-  slot9: {fileID: 0}
-  slot10: {fileID: 0}
-  slot11: {fileID: 0}
-  slot12: {fileID: 0}
-  slot13: {fileID: 0}
-  slot14: {fileID: 0}
-  slot15: {fileID: 0}
-  slot16: {fileID: 0}
-  slot17: {fileID: 0}
-  slot18: {fileID: 0}
-  slot19: {fileID: 0}
-  slot20: {fileID: 0}
-  slot21: {fileID: 0}
-  slot22: {fileID: 0}
-  slot23: {fileID: 0}
-  slot24: {fileID: 0}
-  slot25: {fileID: 0}
-  slot26: {fileID: 0}
-  slot27: {fileID: 0}
-  slot28: {fileID: 0}
-  slot29: {fileID: 0}
-  slot30: {fileID: 0}
-  itemButtonPrefab: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

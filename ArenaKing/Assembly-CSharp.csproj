@@ -61,14 +61,18 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\MainMenuManager.cs" />
-    <Compile Include="Assets\Scripts\CombatEnd.cs" />
+    <Compile Include="Assets\Scripts\Models\ItemList.cs" />
+    <Compile Include="Assets\Scripts\Combat\CombatEnd.cs" />
+    <Compile Include="Assets\Scripts\Models\User.cs" />
     <Compile Include="Assets\Scripts\ScrollNavigation.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\UI\MainMenuManager.cs" />
+    <Compile Include="Assets\Scripts\Core\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Models\Players.cs" />
+    <Compile Include="Assets\Scripts\Models\Item.cs" />
     <Compile Include="Assets\Scripts\CombatNavigation.cs" />
-    <Compile Include="Assets\Scripts\CombatManager.cs" />
+    <Compile Include="Assets\Scripts\UI\LoadingManager.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\LoadingManager.cs" />
+    <Compile Include="Assets\Scripts\Combat\CombatManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shader\Galapagos_Fast Standard Specular.shader" />
