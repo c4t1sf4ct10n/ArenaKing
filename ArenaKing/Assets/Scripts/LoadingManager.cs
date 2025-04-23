@@ -24,8 +24,8 @@ public class LoadingManager : MonoBehaviour
         if (Application.isPlaying)
         {
             deviceId = SystemInfo.deviceUniqueIdentifier;
-            PlayerManager.instance.SetDeviceId(deviceId);
-            PlayerManager.instance.LoadPlayer();
+            MainMenuManager.instance.SetDeviceId(deviceId);
+            MainMenuManager.instance.LoadPlayer();
         }
     }
 
@@ -93,7 +93,7 @@ public class LoadingManager : MonoBehaviour
             currentPlayer = JsonConvert.DeserializeObject<Player>(jsonResponse); // Désérialiser les données du joueur
             PlayerPrefs.SetString("playerId", currentPlayer.player_id);
             PlayerPrefs.SetString("inventoryId", currentPlayer.inventory_id);
-            PlayerManager.instance.SetPlayerId(currentPlayer.player_id);
+            MainMenuManager.instance.SetPlayerId(currentPlayer.player_id);
 
             Debug.Log("Niveau du joueur : " + currentPlayer.level);
             // Transition vers la scène principale après chargement

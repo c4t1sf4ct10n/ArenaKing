@@ -127,8 +127,8 @@ public class CombatManager : MonoBehaviour
             if (round.result == "Death" && round.attacker == player1Id) isVictory = true;
         }
         if (isVictory) Debug.Log("Victoire");
-        PlayerManager.instance.LoadPlayer();
-        InventoryManager.instance.RefreshInventory();
+        MainMenuManager.instance.LoadPlayer();
+        MainMenuManager.instance.RefreshInventory();
         SceneManager.LoadScene("MainMenu");
     }
 
