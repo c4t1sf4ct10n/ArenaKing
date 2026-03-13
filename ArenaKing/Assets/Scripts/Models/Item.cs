@@ -23,4 +23,5 @@ public class Item
     public int? affixe3_value;
     public string affixe4_id;
     public int? affixe4_value;
+    public int item_xp_value;
 }
